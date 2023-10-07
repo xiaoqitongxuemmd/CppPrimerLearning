@@ -1,0 +1,1 @@
+cmake F:\LearningNote\CppPrimer\Code\ExampleCode -G "Visual Studio 17 2022"
