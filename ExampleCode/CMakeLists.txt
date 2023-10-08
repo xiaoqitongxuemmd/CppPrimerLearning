@@ -10,9 +10,11 @@ aux_source_directory(. DIR_SRCS)
 
 # 添加 math 子目录
 add_subdirectory(TestCode)
+add_subdirectory(Chapter9)
 
 # 指定生成目标 
 add_executable(CppLearningNote ${DIR_SRCS})
 
 # 添加链接库
 target_link_libraries(CppLearningNote TestCode)
+target_link_libraries(CppLearningNote Chapter9)
