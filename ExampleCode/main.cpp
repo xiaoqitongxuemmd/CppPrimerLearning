@@ -7,5 +7,6 @@ int main() {
     // AutoAndDecltype();
     // TestShrinkToFit();
     // TestAssign();
-    TestCopy();
+    // TestCopy();
+    TestBind();
 }
