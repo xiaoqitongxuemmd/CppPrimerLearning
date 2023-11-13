@@ -1,6 +1,7 @@
 #include "TestCode\HelloWorld.cpp"
 #include "Chapter9\Chapter9.h"
 #include "Chapter10\Chapter10.h"
+#include "Chapter12\Chapter12.h"
 
 int main() {
     // HelloWorld();
@@ -8,5 +9,6 @@ int main() {
     // TestShrinkToFit();
     // TestAssign();
     // TestCopy();
-    TestBind();
+    // TestBind();
+    BasicUsageOfSharedPoint();
 }

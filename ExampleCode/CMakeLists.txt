@@ -12,6 +12,7 @@ aux_source_directory(. DIR_SRCS)
 add_subdirectory(TestCode)
 add_subdirectory(Chapter9)
 add_subdirectory(Chapter10)
+add_subdirectory(Chapter12)
 
 # 指定生成目标 
 add_executable(CppLearningNote ${DIR_SRCS})
@@ -20,3 +21,4 @@ add_executable(CppLearningNote ${DIR_SRCS})
 target_link_libraries(CppLearningNote TestCode)
 target_link_libraries(CppLearningNote Chapter9)
 target_link_libraries(CppLearningNote Chapter10)
+target_link_libraries(CppLearningNote Chapter12)
